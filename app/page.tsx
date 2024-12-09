@@ -13,7 +13,6 @@ import TopS1 from "@/public/pic5.png";
 import TopS2 from "@/public/pic6.png";
 import TopS3 from "@/public/pic7.png";
 import TopS4 from "@/public/pic8.png";
-import Clients from "@/public/clients.png";
 import { Star } from "lucide-react";
 import { StarHalf } from "lucide-react";
 import { MoveLeft } from "lucide-react";
