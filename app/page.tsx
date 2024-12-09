@@ -202,7 +202,7 @@ export default function Home() {
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           </div>
           <h4 className="font-bold text-xl leading-[22px] flex mb-3">Sarah M. <span><CircleCheck size={18.5} fill="#01ab31" /></span></h4>
-          <p className="text-gray-600 font-normal text-base leading-[22px]">"I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”</p>
+          <p className="text-gray-600 font-normal text-base leading-[22px]">I am blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I have bought has exceeded my expectations.</p>
         </div>
         <div className="w-[400px] h-[240px] border border-gray-300 rounded-[20px] py-7 px-8">
         <div className="flex mb-3">
@@ -213,7 +213,7 @@ export default function Home() {
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           </div>
           <h4 className="font-bold text-xl leading-[22px] flex mb-3">Alex K. <span><CircleCheck size={18.5} fill="#01ab31" /></span></h4>
-          <p className="text-gray-600 font-normal text-base leading-[22px]">"Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”</p>
+          <p className="text-gray-600 font-normal text-base leading-[22px]">Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.</p>
         </div>
         <div className="w-[400px] h-[240px] border border-gray-300 rounded-[20px] py-7 px-8">
         <div className="flex mb-3">
@@ -224,7 +224,7 @@ export default function Home() {
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           </div>
           <h4 className="font-bold text-xl leading-[22px] flex mb-3">James L. <span className="ms-2"><CircleCheck size={18.5} fill="#01ab31" /></span></h4>
-          <p className="text-gray-600 font-normal text-base leading-[22px]">"As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.”</p>
+          <p className="text-gray-600 font-normal text-base leading-[22px]">As someone who is always on the lookout for unique fashion pieces, I am thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.</p>
         </div>
       </div>
     </section>
