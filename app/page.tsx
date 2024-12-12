@@ -50,7 +50,7 @@ export default function Home() {
     <div>
       <h2 className="lg:h-[58px] font-bold text-[32px] md:text-5xl mb-8 md:mb-14 leading-[57px] text-center">NEW ARRIVALS</h2>
     </div>
-    <div className="flex gap-5 mt-10 overflow-scroll justify-center">
+    <div className="flex gap-5 mt-10 max-sm:overflow-scroll justify-center">
       <div>
         <Image src={NewA1} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
         <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">T-shirt with Tape Details</h4>
@@ -74,7 +74,7 @@ export default function Home() {
           <StarHalf size={18.5} fill="#ffc633" color="#ffc633" />
           <span>3.5/5</span>
         </div>
-        <p className="lg:text-2xl font-bold leading-8 flex flex-wrap items-center mt-1 md:mt-2">$240 <span className="text-gray-400 line-through ms-2">$260</span><span className="bg-red-300 text-red-500 ms-2 text-sm">-20%</span></p>
+        <p className="lg:text-2xl font-bold leading-8 flex flex-wrap items-center mt-1 md:mt-2">$240 <span className="text-gray-400 line-through ms-2">$260</span><span className="bg-red-100 text-red-600 text-sm rounded-3xl ms-2 px-3 py-2">-20%</span></p>
       </div>
       <div>
         <Image src={NewA3} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
@@ -100,7 +100,7 @@ export default function Home() {
           <StarHalf size={18.5} fill="#ffc633" color="#ffc633" />
           <span>4.5/5</span>
         </div>
-        <p className="lg:text-2xl font-bold leading-8 flex flex-wrap items-center mt-1 md:mt-2">$130 <span className="text-gray-400 line-through ms-2">$160</span><span className="bg-red-300 text-red-500 ms-2 text-sm">-30%</span></p>
+        <p className="lg:text-2xl font-bold leading-8 flex flex-wrap items-center mt-1 md:mt-2">$130 <span className="text-gray-400 line-through ms-2">$160</span><span className="bg-red-100 text-red-600 text-sm rounded-3xl ms-2 px-3 py-2">-30%</span></p>
       </div>
     </div>
     {/* <div className="flex justify-center">
@@ -115,7 +115,7 @@ export default function Home() {
     <div className="mt-[90px]">
       <h2 className="lg:h-[58px] font-bold text-5xl leading-[57px] m-auto text-center">TOP SELLING</h2>
     </div>
-    <div className="flex gap-5 mt-10 justify-center overflow-scroll">
+    <div className="flex gap-5 mt-10 justify-center max-sm:overflow-scroll">
       <div>
         <Image src={TopS1} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
         <p className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Vertical Striped Shirt</p>
@@ -196,7 +196,7 @@ export default function Home() {
           <MoveRight size={24} />
         </div>
       </div>
-      <div className="flex justify-between m-auto mt-10 overflow-scroll gap-5">
+      <div className="flex justify-between m-auto mt-10 max-sm:overflow-scroll gap-5">
         <div className="lg:h-[240px] border border-gray-300 rounded-[20px] py-7 px-8">
           <div className="flex mb-3">
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
@@ -205,7 +205,7 @@ export default function Home() {
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           </div>
-          <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">Sarah M. <span><CircleCheck size={18.5} fill="#01ab31" /></span></h4>
+          <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">Sarah M. <span><CircleCheck size={24} fill="#01ab31" color="white" /></span></h4>
           <p className="text-gray-600 font-normal text-sm md:text-base leading-[22px]">I am blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I have bought has exceeded my expectations.</p>
         </div>
         <div className="lg:h-[240px] border border-gray-300 rounded-[20px] py-7 px-8">
@@ -216,7 +216,7 @@ export default function Home() {
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           </div>
-          <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">Alex K. <span><CircleCheck size={18.5} fill="#01ab31" /></span></h4>
+          <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">Alex K. <span><CircleCheck size={24} fill="#01ab31" color="white" /></span></h4>
           <p className="text-gray-600 font-normal text-sm md:text-base leading-[22px]">Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.</p>
         </div>
         <div className="lg:h-[240px] border border-gray-300 rounded-[20px] py-7 px-8">
@@ -227,7 +227,7 @@ export default function Home() {
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           </div>
-          <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">James L. <span className="ms-2"><CircleCheck size={18.5} fill="#01ab31" /></span></h4>
+          <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">James L. <span className="ms-2"><CircleCheck size={24} fill="#01ab31" color="white" /></span></h4>
           <p className="text-gray-600 font-normal text-sm md:text-base leading-[22px]">As someone who is always on the lookout for unique fashion pieces, I am thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.</p>
         </div>
       </div>

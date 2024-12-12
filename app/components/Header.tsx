@@ -1,4 +1,5 @@
 import React from "react"
+import Link from "next/link";
 import { ShoppingCart } from "lucide-react";
 import { CircleUserRound } from "lucide-react";
 import { Search } from "lucide-react";
@@ -7,9 +8,6 @@ import { Menu } from "lucide-react";
 import {
     Sheet,
     SheetContent,
-    SheetDescription,
-    SheetHeader,
-    SheetTitle,
     SheetTrigger,
   } from "@/components/ui/sheet"
   
@@ -37,11 +35,19 @@ export function Header() {
                 </SheetTrigger>
                 <SheetContent>
                 <ul className="flex flex-col gap-6 mt-16">
-                    <li className="py-2 underline">Shop</li>
-                    <li className="py-2 underline">On Sale</li>
-                    <li className="py-2 underline">New Arrivals</li>
-                    <li className="py-2 underline">Brands</li>
-                </ul>
+                    <li className="py-2 underline">
+                        <Link href="/product-detail">Shop</Link>
+                    </li>
+                    <li>
+                        <Link href="/product-detail">On Sale</Link>
+                    </li>
+                    <li>
+                        <Link href="/category">New Arrivals</Link>
+                    </li>
+                    <li>
+                        <Link href="/product-detail">Brands</Link>
+                    </li>
+                    </ul>
                 </SheetContent>
             </Sheet>
 
@@ -50,10 +56,18 @@ export function Header() {
             <h1 className="text-[32px] font-bold">SHOP.CO</h1>
             
             <ul className="text-sm lg:text-base font-normal lg:h-[22px] hidden md:flex items-center md:gap-5">
-                <li>Shop</li>
-                <li>On Sale</li>
-                <li>New Arrivals</li>
-                <li>Brands</li>
+                <li>
+                    <Link href="/product-detail">Shop</Link>
+                </li>
+                <li>
+                    <Link href="/product-detail">On Sale</Link>
+                </li>
+                <li>
+                    <Link href="/category">New Arrivals</Link>
+                </li>
+                <li>
+                    <Link href="/product-detail">Brands</Link>
+                </li>
             </ul>
             </div>
             
@@ -64,7 +78,9 @@ export function Header() {
             </div>
             
             <div className="flex gap-4 items-center">
+            <Link href="/product-detail">
                 <ShoppingCart size={24} />
+            </Link>
                 <CircleUserRound size={24} />
             </div>
             </div>
