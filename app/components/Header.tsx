@@ -42,7 +42,7 @@ export function Header() {
                         <Link href="/product-detail">On Sale</Link>
                     </li>
                     <li>
-                        <Link href="/category">New Arrivals</Link>
+                        <Link href="/category">Category</Link>
                     </li>
                     <li>
                         <Link href="/product-detail">Brands</Link>
@@ -63,7 +63,7 @@ export function Header() {
                     <Link href="/product-detail">On Sale</Link>
                 </li>
                 <li>
-                    <Link href="/category">New Arrivals</Link>
+                    <Link href="/category">Category</Link>
                 </li>
                 <li>
                     <Link href="/product-detail">Brands</Link>
@@ -78,7 +78,7 @@ export function Header() {
             </div>
             
             <div className="flex gap-4 items-center">
-            <Link href="/product-detail">
+            <Link href="/cart">
                 <ShoppingCart size={24} />
             </Link>
                 <CircleUserRound size={24} />

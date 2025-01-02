@@ -17,7 +17,7 @@ import TopS4 from "@/public/pic8.png";
 export default function ProductDetail() {
     return(
         <main>
-            <div className="w-5/6 xl:w-4/6 m-auto">
+            <div className="w-5/6 xl:w-5/6 m-auto">
                 <hr className="border-t-gray-200 mb-6"/>
                 <div>
                     <ul className="flex gap-2 text-black/60 text-sm items-center mb-6">
@@ -31,7 +31,7 @@ export default function ProductDetail() {
 
                 <section className="mb-5">
                     <div className="flex justify-between max-sm:flex-col">
-                        <div className="w-full md:w-3/6 flex gap-5 md:p-5 flex-col-reverse">
+                        <div className="w-full md:w-3/6 flex gap-5 md:p-5 max-sm:flex-col-reverse">
                             <div className="flex md:flex-col justify-between gap-2">
                                 <div className="md:w-[152px] md:h-[167px] bg-[#f0f0f0] rounded-2xl border-black border">
                                     <Image src={NewA1} width={152} height={167} alt="new-arrival-T-Shirt" className="rounded-2xl"/>
